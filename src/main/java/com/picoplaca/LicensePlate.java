@@ -10,7 +10,7 @@ public class LicensePlate {
 
     public LicensePlate(String plateNumber) {
         if(plateNumber == null)
-            throw new IllegalArgumentException("License plate number cannot be null");
+            throw new IllegalArgumentException("La placa no puede ser nula");
 
         String cleanedPlate = plateNumber.trim().toUpperCase();
         if(!PLATE_PATTERN.matcher(cleanedPlate).matches()) {
