@@ -1,4 +1,4 @@
-package learning.ob;
+package com.picoplaca;
 
 /**
  * Hello world!

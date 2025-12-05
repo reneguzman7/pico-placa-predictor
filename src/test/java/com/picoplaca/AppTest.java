@@ -1,4 +1,4 @@
-package learning.ob;
+package com.picoplaca;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
